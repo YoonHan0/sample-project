@@ -150,3 +150,23 @@
 - `.github/agents/`
 
 이 저장소를 clone한 뒤 VS Code에서 열면 에이전트 설정을 바로 사용할 수 있습니다.
+
+<br />
+
+## 🧑‍💻 Copilot CLI 사용하기
+```bash
+brew install copilot-cli  # brew를 이용한 다운로드
+
+copilot --version         # 버전 확인 (ex: GitHub Copilot CLI 1.0.18 )
+
+# 코파일럿을 사용하고 싶은 디렉터리 경로로 이동 후
+
+copilot    # 코파일럿 실행
+
+# 이후에
+# 1. 프로젝트를 신뢰할 수 있는가? (yes/no)
+# 2. 깃 계정 로그인
+
+# 완료
+
+```
